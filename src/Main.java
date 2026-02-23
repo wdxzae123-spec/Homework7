@@ -15,7 +15,7 @@ void main() {
             distance += step;
             if (distance <= total) {
                 int i2 = total - distance;
-                System.out.println("Держись! осталось " + i2 + " метров");
+                System.out.println("Держись! осталось " + i2 + " метров.");
             }
         } while (distance < total);
     }
@@ -24,7 +24,7 @@ void main() {
         int distance1 = 42195;
         for (; distance1 > 0; distance1 = distance1 - 500)
             if (distance1 > 0) {
-                System.out.println("Держитесь! Осталось " + distance1 + " меторв.");
+                System.out.println("Держитесь! Осталось " + distance1 + " метров.");
             }
     }
     {
